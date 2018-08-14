@@ -5,6 +5,7 @@ import java.util.PriorityQueue;
 import Game.SimpleGameBoard;
 import Game.SimpleTile;
 
+//A defunct class
 public class AStarGraph {
 	//public static final int goal = 2048;
 	public AStarGraph() {

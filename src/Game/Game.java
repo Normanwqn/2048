@@ -149,6 +149,7 @@ public class Game extends JPanel implements Runnable, KeyListener{
 		if (running) return;
 		running = false;
 		System.out.println("The game has run " + timeRun +" time(s).");
+		//Recording the data
 		int endScore = this.board.score;
 		int endMaxTile = this.board.findMax();
 		int searchTime; int searchDepth;

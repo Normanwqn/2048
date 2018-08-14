@@ -13,7 +13,8 @@ import Game.SimpleGameBoard;
 import Game.SimpleTile;
 import Game.Direction;
 
-
+//A defunct search class which is not working,
+//I orginally attempted to use A* search
 public class AStarSearch extends AI{
 	SearchNode currentRootNode;
 	static SearchNode goalNode;
