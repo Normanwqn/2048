@@ -17,7 +17,7 @@ public class Expectiminimax extends AI {
 	Direction bestMove = Direction.NULL;
 	//public static int bestScore = 0;
 	public static double newBestScore =0;
-	public static final int delay = 8;
+	public static final int delay = 15;
 	//public static int depth = 0;
 	public Expectiminimax(SimpleGameBoard g) {
 		super(g);
